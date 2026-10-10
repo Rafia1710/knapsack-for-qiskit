@@ -1,0 +1,10 @@
+{
+  "name": "Processor_B_T_Shape",
+  "num_qubits": 5,
+  "coupling_map": [[0,1], [1,2], [2,3], [1,4]],
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "noise": {
+    "gate_error_1q": 0.0015,
+    "gate_error_2q": 0.008
+  }
+}
